@@ -17,9 +17,9 @@ public class Movie extends LibraryMedia {
 
     public void checkDuration() {
         if (duration > 120) {
-            System.out.println(title + " is long (" + duration + " minutes).");
+            System.out.println(title + " is long, it's "+ duration + " minutes");
         } else {
-            System.out.println(title + " is standard length (" + duration + " minutes).");
+            System.out.println(title + " is standard length, it's " + duration + " minutes");
         }
     }
 }

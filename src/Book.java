@@ -17,9 +17,11 @@ public class Book extends LibraryMedia {
 
     public void checkNumberOfPages() {
         if (numberOfPages > 500) {
-            System.out.println(title + " is long  (" + numberOfPages + " pages).");
+            System.out.println(title + " is long");
+            System.out.println(title + " is "+ numberOfPages + " pages long");
         } else {
-            System.out.println(title + " is standard length  (" + numberOfPages + " pages).");
+            System.out.println(title + " is standard length");
+            System.out.println(title + " is "+ numberOfPages + " pages long");
         }
     }
 }
